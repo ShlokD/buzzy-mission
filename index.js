@@ -13,7 +13,7 @@ const getVerbs = () => {
 
 const getBuzzWords = () => {
   buzzWords = [];
-  for(let i = 0; i < 5; ++i) {
+  for(let i = 0; i < 3; ++i) {
     const randomBuzzWord = buzzWordList[generateRandomInt(buzzWordList.length - 1)].trim();
     buzzWords.push(randomBuzzWord);
   }
@@ -23,7 +23,7 @@ const getBuzzWords = () => {
 const generate = () => {
   const verbs = getVerbs();
   const buzzwords = getBuzzWords();
-  const statement = `Our mission is to ${verbs[0]} ${buzzwords[0]} and ${verbs[1]} ${buzzwords[1]} in order to ${verbs[2]} ${buzzwords[3]} for ${buzzwords[4]}.`;
+  const statement = `Our mission is to ${verbs[0]} and ${verbs[1]} ${buzzwords[0]} in order to ${verbs[2]} ${buzzwords[1]} for ${buzzwords[2]}.`;
   return statement.split(' ').map((word) => word[0].toUpperCase() + word.slice(1)).join(' ');
 }
 
