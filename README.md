@@ -1,4 +1,4 @@
-### Buzzing Js
+### Buzzy-Mission Js
 
 Random node module to generate buzzwordy mission statements
 
