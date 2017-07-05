@@ -1,0 +1,11 @@
+{
+  "name": "buzzing",
+  "version": "1.0.0",
+  "description": "Buzzwordy mission statement generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Shlok Desai",
+  "license": "ISC"
+}
